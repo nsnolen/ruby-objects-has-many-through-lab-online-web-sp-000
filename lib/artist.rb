@@ -1,9 +1,9 @@
-class Artist 
+class Artist
   attr_accessor :name
   @@all = []
 
   def self.all
-    @@all 
+    @@all
   end
 
   def initialize(name)
