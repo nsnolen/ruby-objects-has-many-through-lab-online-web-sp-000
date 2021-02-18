@@ -11,8 +11,8 @@ class Genre
     @@all
   end
 
-  def songs(song, artist)
-    Song.new(song, artist, self)
+  def songs(name, artist)
+    Song.new(name, artist, self)
   end
 
 end
