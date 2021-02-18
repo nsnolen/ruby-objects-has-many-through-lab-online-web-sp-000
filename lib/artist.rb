@@ -3,12 +3,12 @@ class Artist
   @@all = []
 
   def self.all
-    @@all << self
+    @@all
   end
 
   def initialize(name)
     @name = name
-    @@all
+    @@all << self
   end
 
   def new_song(name, genre)
