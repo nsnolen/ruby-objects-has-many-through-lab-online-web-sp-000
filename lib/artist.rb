@@ -8,7 +8,7 @@ class Artist
 
   def initialize(name)
     @name = name
-    all
+    @@all
   end
 
   def new_song(name, genre)
